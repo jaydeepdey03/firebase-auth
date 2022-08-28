@@ -24,10 +24,6 @@ const uiConfig = {
 };
 
 
-
-
-
-
 const Auth = () => {
     const [isSignedIn, setIsSignedIn] = useState(false); // Local signed-in state.
     // Listen to the Firebase Auth state and set the local state.
